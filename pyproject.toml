@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backup-juggler"
+version = "0.1.0"
+description = "Multiple copies of files and directories simultaneously made easy"
+license = "GPL-3.0-only"
+authors = ["Marcos Raulino <marcosfsraulino@gmail.com>"]
+readme = "README.md"
+packages = [{include = "backup_juggler"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+commitizen = "^3.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
