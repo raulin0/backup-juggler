@@ -1,0 +1,34 @@
+site_name: Backup Juggler
+repo_url: https://github.com/Raulin0/backup-juggler
+repo_name: Raulin0/backup-juggler
+edit_uri: tree/master/docs
+
+theme:
+  name: material
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.tasklist
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - stylesheets/extra.css
+
+watch:
+  - backup_juggler
+
+plugins:
+- macros
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [backup_juggler]
+
+extra:
+  commands:
+    run: bj
