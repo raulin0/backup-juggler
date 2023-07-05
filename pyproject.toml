@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "backup-juggler"
-version = "0.1.0"
+version = "0.2.1"
 description = "Multiple copies of files and directories simultaneously made easy"
 license = "GPL-3.0-only"
 authors = ["Marcos Raulino <marcosfsraulino@gmail.com>"]

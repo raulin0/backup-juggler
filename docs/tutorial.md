@@ -34,8 +34,8 @@ Copying source.txt to destination: 100%|█████████████�
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 In that example, the copy will be saved in a newly created directory inside the destination directory, using the same name as the file.
-![](/images/inside_directory_created.png)
-![](/images/copied_source_file.png)
+![](./images/inside_directory_created.png)
+![](./images/copied_source_file.png)
 
 2. **As an entire directory**:
 ```bash
@@ -49,8 +49,8 @@ Copying source to destination: 100%|██████████████�
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 And the entire source directory will be copied recursively into the destination directory
-![](/images/copied_source_dir.png)
-![](/images/copied_source_dir_recursively.png)
+![](./images/copied_source_dir.png)
+![](./images/copied_source_dir_recursively.png)
 
 !!! warning "About the sources"
         If the paths specified as sources for the backups do not exist, the `FileNotFoundError` exception will be raised. So make sure you enter the paths correctly.
