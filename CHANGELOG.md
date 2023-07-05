@@ -1,3 +1,9 @@
+## 0.2.1 (2023-07-05)
+
+### Fix
+
+- resolves image display issue in tutorial documentation
+
 ## 0.2.0 (2023-07-05)
 
 ### Feat
